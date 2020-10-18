@@ -1,0 +1,130 @@
+.navbar-brand{
+    color: white !important;
+}
+a.nav-link{
+    color: white !important;
+}
+.aside-content a{
+    color: black;
+}
+.nav-link:hover{
+    border: 1px solid white;
+}
+.active-nav-link{
+    border: 1px solid white;
+}
+#main-header{
+    background-color:rgb(8, 58, 111);
+    position: fixed;
+    top: 0px;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+   z-index: 10;
+}
+#main-header h5{
+    padding-top: 20px;
+    color: white;
+}
+.content-wrapperr{
+    margin-top: 100px;
+}
+.content-wrapper > .btn{
+    padding: 30px;
+}
+.content-wrapper a{
+    color: black !important;
+}
+.content-wrapper a:hover{
+    text-decoration: none;
+    color: darkturquoise !important;
+}
+
+.img-darken{
+    transition: 3s;
+    filter: brightness(10%);
+}
+.background-photo{
+    
+    background-position: 50% 80%;
+    margin-bottom: 30px;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.background-photo h2{
+    padding-top: 13%;
+    color: white;
+}
+.background-imgage-container{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.content-wrapper{
+    border: 1px solid #efefef;
+    box-sizing: border-box;
+    position: relative;
+   
+}
+.content-wrapper:hover{
+    box-shadow: blue;
+    box-shadow:0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+.Recent-post, .Recent-comment, .Categories, .tweet, .social-media, .profile {
+    border: 1px solid #efefef;
+    text-align: center !important;
+    padding: 50px;
+    color: black;
+    margin: auto;
+}
+.Recent-post, li{
+    margin: auto;
+    text-align: center !important;
+    border-bottom: 1px solid grey;  
+    
+}
+.Recent-post, .Categories li:hover{
+    text-decoration: none;
+}
+.Recent-comment li{
+    margin: auto;
+    border-bottom: 1px solid grey;  
+}
+.advertise-writing-column{
+    border: 2px solid gray;
+    padding: 50px;
+}
+.advertisement-pictures img{
+    padding: 10px;
+}
+.jumia-ad{
+    border: 2px solid gray;
+    margin: auto;
+    padding: 10px;
+}
+.email-form{
+    border: 2px solid gray;
+   padding: 30px;
+}
+.social-media img{
+    padding: 5px;
+}
+.service{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+   
+}
+.right-service{
+    background-color: blue;
+    padding: 20px;
+    overflow:scroll;
+}
+footer{
+    padding: 20px;
+    color: blue;
+    background-color: black;
+}
