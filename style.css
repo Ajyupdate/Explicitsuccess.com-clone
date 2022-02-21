@@ -133,3 +133,6 @@ footer{
     justify-content: space-between;
     padding-left: 10px;
 }
+.readMore{
+    border-radius: 20px;
+}
